@@ -1,0 +1,9 @@
+server:
+  port: 8101
+
+
+
+
+hdfs:
+  path: hdfs://192.168.1.32:9000
+  username: root

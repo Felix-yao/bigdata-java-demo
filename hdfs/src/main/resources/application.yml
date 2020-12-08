@@ -1,0 +1,18 @@
+server:
+  port: 8088
+
+
+spring:
+  application:
+    name: hdfs
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+
+
+hdfs:
+  path: hdfs://222.186.174.33:28711
+#  path: hdfs://192.168.1.32:9000
+  username: root
+
